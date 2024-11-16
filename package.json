@@ -8,15 +8,18 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
-  },
   "devDependencies": {
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "15.0.3"
-  }
+  },
+    "dependencies": {
+      "type": "module",
+      "@react-google-maps/api": "^2.19.2",
+      "axios": "^1.6.2",
+      "next": "14.x",
+      "react": "18.x",
+      "react-dom": "18.x"
+    }
 }
